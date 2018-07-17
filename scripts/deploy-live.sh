@@ -6,7 +6,7 @@
 # Build prod env and create backup dirs on Circle     #
 #=====================================================#
 
-bin/sculpin generate --env=prod
+
 # Migrate paginated files to avoid .html within the URLs
 for file in output_prod/docs/changelog/page/*html
 do
